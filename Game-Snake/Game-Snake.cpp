@@ -1,6 +1,6 @@
 //
 // Game: SNAKE
-// Designed by Gribinchook Vlad, 2015
+// Designed by Gribinchuk Vlad, 2015
 // powered uses Win API library
 //
 
@@ -488,7 +488,7 @@ LRESULT CALLBACK MainWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lPar
 		TextOut(hdc, (clientRect.right - 250) / 2, 210, _T("Sign in or create new account.\0"), 30);
 		SelectObject(hdc, hFontBtn);
 		TextOut(hdc, (clientRect.right - 250) / 2, 500, _T("The \'Snake\' app, current version - 1.1 \0"), 40);
-		TextOut(hdc, (clientRect.right - 250) / 2, 515, _T("All rights reserved © 2015, Vlad Gribichuk.\0"), 44); 
+		TextOut(hdc, (clientRect.right - 250) / 2, 515, _T("All rights reserved Â© 2015, Vlad Gribichuk.\0"), 44); 
 		
 		if (loading == 1){
 			_stprintf_s(loadStr, L"Loading...%s\0", L"filedll.dll");
